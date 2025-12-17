@@ -38,6 +38,8 @@ Exemple:
 
 def descending_list_iterator(numbers_list):
     # Write here your code
+    numbers_list.sort(reverse=True)
+    return iter(numbers_list)
     pass
 
 
