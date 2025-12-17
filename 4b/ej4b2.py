@@ -52,6 +52,10 @@ Exemple:
 def average_score_ram(scores_dict):
     # Store the dictionary in RAM
     # Write here your code
+    sum_score = 0
+    for score in scores_dict.values():
+        sum_score += score
+    return sum_score / len(scores_dict)
     pass
 
 
