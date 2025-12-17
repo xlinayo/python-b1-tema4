@@ -36,6 +36,12 @@ Exemple:
 
 def sum():
     # Write here your code
+    n1 = int(input("Insert number 1: "))
+    n2 = int(input("Insert number 2: "))
+    rdo = n1 + n2
+    print("Result: ", rdo)
+    return rdo
+             
     pass
 
 
