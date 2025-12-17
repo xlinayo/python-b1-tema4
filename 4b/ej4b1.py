@@ -46,6 +46,10 @@ Exemple:
 def squared_sum_ram(numbers_list):
     # Store the list in RAM
     # Write here your code
+    sum = 0
+    for num in numbers_list:
+        sum += num**2
+    return sum
     pass
 
 
