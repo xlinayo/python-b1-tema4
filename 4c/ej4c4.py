@@ -55,13 +55,18 @@ Exemple:
          "Polly"        
 """
 # Write abstract class Animal here
-
+class Animal:
+	def __init__(self, name):
+		self.name = name
+	def talk(self):
+		raise NotImplementedError("Abstract method")
+								  
 # Corret and overwrite class Dog(Animal) here 
-class Dog():
+class Dog(Animal):
     def __init__(self, name):
         self.name = name
-
     def talk(self):
+		return "¡Guau!"
         pass
 
 # Corret and overwrite class Cat(Animal) here 
@@ -69,6 +74,7 @@ class Cat():
     def __init__(self, name):
         self.name = name
     def talk(self):
+		return "¡Meow!"
         pass
 
 # Corret and overwrite class Parrot(Animal) here 
@@ -76,6 +82,7 @@ class Parrot():
     def __init__(self, name):
         self.name = name
     def talk(self):
+		return "¡Whistle!"
         pass
 
 
