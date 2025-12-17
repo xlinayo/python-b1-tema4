@@ -31,6 +31,8 @@ Enunciat:
 
 def add_elapsed_time(dictionary, key, value):
     # Write here your code
+    dictionary[key] = value
+    return dictionary
     pass
 
 
